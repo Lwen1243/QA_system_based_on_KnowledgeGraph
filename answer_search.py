@@ -3,7 +3,7 @@
 # File: answer_search.py
 
 from py2neo import Graph
-
+ 
 class AnswerSearcher:
     def __init__(self):
         self.g = Graph("http://localhost:7474",auth=("neo4j","12345678"),name="neo4j")
